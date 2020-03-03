@@ -1,0 +1,148 @@
+<!doctype html>
+
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    
+</head>
+<body>
+
+<header>
+    <ul>
+        <li>
+            <img src="">
+            <h4>Папа пицца</h4>
+        </li>
+        <li><a href="#">Личный кабинет</a></li>
+        <li>
+            <ul class="data">
+                <li>
+                    <span class="price">Цена</span>
+                    <span class="priceValue">0</span>
+                    <span>р</span>
+                </li>
+                <li>
+                    <span class="count">Кол-во</span>
+                    <span class="countValue">0</span>
+                </li>
+            </ul><!--     
+            <a>
+                <button>Корзина</button>
+            </a> -->
+        </li>
+    </ul>
+</header>
+    <main>
+        <section class ="new_product product">
+            <h2>Новинки</h2>
+            <ul>
+                <li data-id="1" data-price = "445.00">
+                    <a href="#">
+                        <img src="img/pizza_img/morskaya.jpg" alt="morskaya" data-id="1" data-price = "445.00" data-name = "Морская">
+                    </a>
+                    <h3>Морская</h3>
+                    <p>Томатный соус, сладкий перец, лук красный, моцарелла, маслины и креветки</p>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/pizza_img/gavajskaja.jpg" alt="gavajskaja" data-id="2" data-price = "395.00" data-name = "Гавайская" class="qw">
+                    </a>
+            	   <h3>Гавайская</h3>
+                    <p>Цыпленок, томатный соус, моцарелла и ананасы</p>
+                </li>
+                <li data-id="3" data-price = "395.00">
+                    <a href="#">
+                        <img src="img/pizza_img/italian.jpg" alt="italian" data-id="3" data-price = "395.00" data-name = "Итальянская">
+                    </a>
+            	   <h3>Итальянская</h3>
+                    <p>Пикантная пепперони, томатный соус, шампиньоны, моцарелла, маслины и орегано</p>
+                </li>
+            </ul>
+        </section>        
+
+        <section class ="pop_product product">
+            <h2>Популярное</h2>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="img/pizza_img/four_seasons.jpg" alt="four_seasons" data-id="4" data-price = "395.00" data-name = "Четыре сезона">
+                    </a>
+            	   <h3>Четыре сезона</h3>
+                    <p>Ветчина, пикантная пепперони, томатный соус, кубики брынзы, шампиньоны, моцарелла, томаты и орегано</p>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/pizza_img/margarita.jpg" alt="margarita" data-id="5" data-price = "345.00" data-name = "Маргарита">
+                    </a>
+                    <h3>Маргарита</h3>
+                    <p>Томатный соус, моцарелла, томаты и орегано</p>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/pizza_img/four_cheeses.jpg" alt="four_cheeses" data-id="6" data-price = "440.00" data-name = 
+                "Четыре сыра" >
+            	   </a>
+                    <h3>Четыре сыра</h3>
+                    <p>Сливочный соус, сыр блю чиз, моцарелла и смесь сыров чеддер и пармезан</p>
+                </li>
+            </ul> 
+        </section>
+
+        <section class="basket none">
+            <h2>Корзина</h2>
+            <ul>
+                <li>
+                    <ul class="header">
+                        <li>Наименование</li>
+                        <li>Цена</li>
+                        <li>Кол-во</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="basket_list">
+                
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li>
+                            <span class="title">Всего</span>
+                            <span class="priceValue">0</span>
+                            <span>р</span>
+                        </li>
+                        <li>
+                            <span class="title">Кол-во</span>
+                            <span class="countValue">0</span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            
+        </section>
+
+        <div>
+            <span class="countValue">0</span>
+        </div>
+    </main> 
+
+<!-- 
+    <aside id="sidebar">
+        <div class="basket">
+            <div class="basket_list">
+                <div class="head">
+                    <span class="name">Наименование</span>
+                    <span class="count">Кол-во</span>
+                </div>
+                <ul>                	 
+                </ul>
+            </div>
+        </div>
+
+    </aside> -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
